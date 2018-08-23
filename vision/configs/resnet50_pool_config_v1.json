@@ -1,0 +1,30 @@
+{
+    "hyperparameters": {
+        "learning_rate": 1e-05,
+        "nb_epochs": 1000,
+        "batch_size": 1,
+        "decay": 1e-06
+    },
+    "model": {
+        "loss": "mean_squared_error",
+        "optimizer": "Adam",
+        "target_shape": [
+            300,
+            600
+        ],
+        "init_weights": "imagenet",
+        "model_name": "resnet50_pool",
+        "nb_outputs": 9
+    },
+    "training": {
+        "patience": 20,
+        "train_path": "/Users/campbellweaver/Documents/BSI/bsi_vision/vision/train_practice",
+        "train_test_ratio": 0.7
+    },
+    "performance": {
+        "best_weights": "data/checkpoints/resnet50_pool-2018_04_27_13_06-001-3383.hdf5",
+        "last_opened": "2018_04_27_13_06",
+        "last_weight_update": null,
+        "best_loss": 3382.715576171875
+    }
+}

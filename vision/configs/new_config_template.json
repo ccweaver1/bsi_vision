@@ -1,0 +1,30 @@
+{
+    "hyperparameters": {
+        "learning_rate": 1e-05,
+        "nb_epochs": 1000,
+        "batch_size": 1,
+        "decay": 1e-06
+    },
+    "model": {
+        "loss": "mean_squared_error",
+        "target_shape": [
+            300,
+            300
+        ],
+        "optimizer": "Adam",
+        "nb_outputs": 9,
+        "model_name": "dense"
+    },
+    "training": {
+        "train_path": "s3://bsivisiondata/PHI-PIT_6m-8m/",
+        "train_test_ratio": 0.7
+    },
+    "sagemaker": {
+        "init_ckpt": null,        
+        "evalutation_steps": 10,
+        "train_instance_type": "ml.m4.xlarge",
+        "s3_artifact_bucket": "s3://sagemaker-us-east-1-359098845427",
+        "training_steps": 1000,
+        "train_max_run": 21600
+    }
+}

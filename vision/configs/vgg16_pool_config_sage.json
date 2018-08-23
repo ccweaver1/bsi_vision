@@ -1,0 +1,32 @@
+{
+    "training": {
+        "hyperparameters": {
+            "learning_rate": 1e-05,
+            "nb_epochs": 1000,
+            "batch_size": 128,
+            "decay": 1e-06
+        },
+        "model": {
+            "loss": "mean_squared_error",
+            "target_shape": [
+                300,
+                300
+            ],
+            "optimizer": "Adam",
+            "nb_outputs": 9,
+            "model_name": "vgg16_pool"
+        }
+    },
+    "train_path": "s3://bsivisiondata",
+    "sagemaker": {
+        "output_bucket_name": "sagemaker-us-east-1-359098845427",
+        "output_path": "s3://sagemaker-us-east-1-359098845427",
+        "evaluation_steps": 10,
+        "train_instance_type": "ml.m4.4xlarge",
+        "training_steps": 10000,
+        "train_max_run": 3600,
+        "eval_metrics": [
+            "mean_squared_error"
+        ]
+    }
+}

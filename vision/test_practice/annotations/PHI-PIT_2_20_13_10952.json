@@ -1,0 +1,215 @@
+{
+    "warp": {
+        "M": [
+            [
+                0.021893685837989993,
+                -0.04984713990250507,
+                -159.5466479861051
+            ],
+            [
+                -0.032033478849326114,
+                0.18277793023805372,
+                -72.58960667451471
+            ],
+            [
+                0.0002621529472819884,
+                0.0020538691606638154,
+                1.0
+            ]
+        ]
+    },
+    "annotation": {
+        "folder": "frames",
+        "filename": "PHI-PIT_2_20_13_10952.png",
+        "path": "/Users/campbellweaver/Documents/VisionData/PHI-PIT_6m-8m/frames/PHI-PIT_2_20_13_10952.png",
+        "source": {
+            "database": "Unknown"
+        },
+        "size": {
+            "width": "1280",
+            "height": "720",
+            "depth": "3"
+        },
+        "segmented": "0",
+        "object": [
+            {
+                "name": "hockey_goalie",
+                "pose": "Unspecified",
+                "truncated": "0",
+                "difficult": "0",
+                "bndbox": {
+                    "xmin": "58",
+                    "ymin": "184",
+                    "xmax": "120",
+                    "ymax": "306"
+                }
+            },
+            {
+                "name": "hockey_end_line",
+                "pose": "Unspecified",
+                "truncated": "0",
+                "difficult": "0",
+                "bndbox": {
+                    "xmin": "251",
+                    "ymin": "195",
+                    "xmax": "367",
+                    "ymax": "233"
+                }
+            },
+            {
+                "name": "hockey_net",
+                "pose": "Unspecified",
+                "truncated": "0",
+                "difficult": "0",
+                "bndbox": {
+                    "xmin": "18",
+                    "ymin": "224",
+                    "xmax": "133",
+                    "ymax": "286"
+                }
+            },
+            {
+                "name": "hockey_player",
+                "pose": "Unspecified",
+                "truncated": "0",
+                "difficult": "0",
+                "bndbox": {
+                    "xmin": "532",
+                    "ymin": "232",
+                    "xmax": "614",
+                    "ymax": "328"
+                }
+            },
+            {
+                "name": "hockey_player",
+                "pose": "Unspecified",
+                "truncated": "0",
+                "difficult": "0",
+                "bndbox": {
+                    "xmin": "1027",
+                    "ymin": "477",
+                    "xmax": "1098",
+                    "ymax": "615"
+                }
+            },
+            {
+                "name": "hockey_player",
+                "pose": "Unspecified",
+                "truncated": "0",
+                "difficult": "0",
+                "bndbox": {
+                    "xmin": "66",
+                    "ymin": "393",
+                    "xmax": "184",
+                    "ymax": "516"
+                }
+            },
+            {
+                "name": "hockey_player",
+                "pose": "Unspecified",
+                "truncated": "0",
+                "difficult": "0",
+                "bndbox": {
+                    "xmin": "35",
+                    "ymin": "306",
+                    "xmax": "135",
+                    "ymax": "396"
+                }
+            },
+            {
+                "name": "hockey_score_bug",
+                "pose": "Unspecified",
+                "truncated": "0",
+                "difficult": "0",
+                "bndbox": {
+                    "xmin": "366",
+                    "ymin": "48",
+                    "xmax": "944",
+                    "ymax": "96"
+                }
+            },
+            {
+                "name": "hockey_end_line",
+                "pose": "Unspecified",
+                "truncated": "1",
+                "difficult": "0",
+                "bndbox": {
+                    "xmin": "1",
+                    "ymin": "306",
+                    "xmax": "42",
+                    "ymax": "326"
+                }
+            },
+            {
+                "name": "hockey_faceoff_dot",
+                "pose": "Unspecified",
+                "truncated": "0",
+                "difficult": "0",
+                "bndbox": {
+                    "xmin": "82",
+                    "ymin": "443",
+                    "xmax": "274",
+                    "ymax": "522"
+                }
+            },
+            {
+                "name": "hockey_puck",
+                "pose": "Unspecified",
+                "truncated": "0",
+                "difficult": "0",
+                "bndbox": {
+                    "xmin": "576",
+                    "ymin": "338",
+                    "xmax": "622",
+                    "ymax": "362"
+                }
+            },
+            {
+                "name": "hockey_faceoff_dot",
+                "pose": "Unspecified",
+                "truncated": "0",
+                "difficult": "0",
+                "bndbox": {
+                    "xmin": "579",
+                    "ymin": "232",
+                    "xmax": "689",
+                    "ymax": "274"
+                }
+            }
+        ],
+        "camera_angle": "hockey_broadcast",
+        "known_points": {
+            "faceoff_dot-northwest_EZ": {
+                "x": "637",
+                "y": "250"
+            },
+            "faceoff_dot-southwest_EZ": {
+                "x": "169",
+                "y": "474"
+            },
+            "hockey_end_line_x_playing_surface-northwest": {
+                "x": "446",
+                "y": "160"
+            }
+        },
+        "period": "1st",
+        "time": "16:40 2"
+    },
+    "M": [
+        [
+            0.021893685837989993,
+            -0.04984713990250507,
+            -159.5466479861051
+        ],
+        [
+            -0.032033478849326114,
+            0.18277793023805372,
+            -72.58960667451471
+        ],
+        [
+            0.0002621529472819884,
+            0.0020538691606638154,
+            1.0
+        ]
+    ]
+}
