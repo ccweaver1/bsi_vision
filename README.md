@@ -1,10 +1,10 @@
 # BSI Vision
 
-This repository encompasses the data gathering, computer vision and hockey analytics we're working on.
+This work uses machine learning and deep convolutional networks to extract advanced analytics from NHL data and broadcasts.
 
 ## Installation
 
-git clone https://ccweaver30@bitbucket.org/ccweaver30/bsi_vision.git
+git clone https://github.com/ccweaver1/bsi_vision.git
 
 cd bsi_vision
 
