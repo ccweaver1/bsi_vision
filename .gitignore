@@ -2,9 +2,12 @@
 vision/data/*
 vision/tf_ckpts/*
 vision/mx_model_zoo/*
-hockey-obj-detection/data/s3_training_data/*
+hockey-obj-detection/data/*
 hockey-obj-detection/snapshots/*
 s3_training_data/*
+#file specific
+*.h5
+*.mp4
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
