@@ -46,7 +46,7 @@ More efforts were made to improve on this overfitting problem.  While incresaing
 
 On certain cherry-picked scenes where features line up well with the features of the training data, the homography network performs as intended (though it is more jittery than would be preferred).  (Video is downsampled)
 
-![alt text](https://raw.githubusercontent.com/ccweaver1/bsi_vision/master/demo/mapping.png)
+![alt text](https://raw.githubusercontent.com/ccweaver1/bsi_vision/master/demo/mapping.gif)
 
 
 ## Future Work
