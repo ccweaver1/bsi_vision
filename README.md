@@ -29,12 +29,11 @@ Object detection is accomplished using a [retinanet](https://github.com/fizyr/ke
 
 A second object detection network was trained with improved results.  This network used a [Faster RCNN](https://arxiv.org/pdf/1506.01497.pdf) architecture with the same resnet backbone.  The improvement in results could be due to differences in the network architectures, though retinanet should match or exceed the accuracy of FRCNN.  More likely, the difference in performance could be attributed to a more effective image augmentation pipeline in the FRCNN training.
 
-### In action
-####Retinanet
+### Retinanet
 
 ![alt text](https://raw.githubusercontent.com/ccweaver1/bsi_vision/master/demo/detection.gif)
 
-####Faster RCNN
+###Faster RCNN
 
 ![alt text](https://raw.githubusercontent.com/ccweaver1/bsi_vision/master/demo/detectionFRCNN.gif)
 
