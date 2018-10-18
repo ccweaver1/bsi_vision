@@ -33,7 +33,7 @@ A second object detection network was trained with improved results.  This netwo
 
 ![alt text](https://raw.githubusercontent.com/ccweaver1/bsi_vision/master/demo/detection.gif)
 
-###Faster RCNN
+### Faster RCNN
 
 ![alt text](https://raw.githubusercontent.com/ccweaver1/bsi_vision/master/demo/detectionFRCNN.gif)
 
