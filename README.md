@@ -1,6 +1,6 @@
 # BSI Vision
 
-This work uses deep convolutional neural networks and other ML techniques to extract player detection and mapping data from NHL broadcasts.
+This work uses deep convolutional neural networks and other ML and computer vision techniques to extract player detection and mapping data from NHL broadcasts.
 
 ## Objective
 
@@ -27,8 +27,14 @@ The data pipeline was built using AWS S3 service.
 
 Object detection is accomplished using a [retinanet](https://github.com/fizyr/keras-retinanet) architechture with a ResNet backbone.  Transfer learning was performed starting from Imagenet weights.
 
+A second object detection network was trained with improved results.  This network used a [Faster RCNN](https://arxiv.org/pdf/1506.01497.pdf) architecture with the same resnet backbone.  The improvement in results could be due to differences in the network architectures, though retinanet should match or exceed the accuracy of FRCNN.  More likely, the difference in performance could be attributed to a more effective image augmentation pipeline in the FRCNN training.
+
 ### In action
+Retinanet
 ![alt text](https://raw.githubusercontent.com/ccweaver1/bsi_vision/master/demo/detection.gif)
+
+Faster RCNN
+![alt text](https://raw.githubusercontent.com/ccweaver1/bsi_vision/master/demo/detectionFRCNN.gif)
 
 
 ## Finding Homography
