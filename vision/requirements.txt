@@ -79,7 +79,7 @@ tornado==5.0.2
 traceback2==1.4.0
 traitlets==4.3.2
 unittest2==1.1.0
-urllib3==1.22
+urllib3==1.26.5
 wcwidth==0.1.7
 Werkzeug==0.14.1
 widgetsnbextension==3.2.1
