@@ -9,7 +9,7 @@ jmespath==0.9.3
 kiwisolver==1.0.1
 matplotlib==2.2.2
 numpy==1.14.2
-opencv-python==3.4.0.12
+opencv-python==4.2.0.32
 pyparsing==2.2.0
 python-dateutil==2.6.1
 pytz==2018.4
